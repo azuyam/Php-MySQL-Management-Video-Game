@@ -41,8 +41,8 @@ The database (`space_trader`) consists of 6 core tables:
    *Path:* `C:/xampp/htdocs/trader/`
 4. **Setup the Database:**
    * Open your browser and go to `http://localhost/phpmyadmin/`.
-   * Create a new database named `space_trader`.
-   * Go to the **SQL** tab and execute the setup queries provided in `database_setup.sql` (or copy them from the project documentation) to build the schema and seed the initial data.
+   * Import `space_trader.sql` database found in the compressed zip.
+   * You can also create a new database named `space_trader`, then go to the **SQL** tab and execute the setup queries provided in `database_setup.sql` (or copy them from the project documentation) to build the schema and seed the initial data.
 5. **Play the Game:**
    * Open your browser and navigate to `http://localhost/trader/index.html`.
 
